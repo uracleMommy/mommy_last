@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pIT-zG-VIw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pIT-zG-VIw">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-34.133333333333333" y="531.08000000000004"/>
         </scene>
-        <!--로그인(테스트)-->
+        <!--로그인-->
         <scene sceneID="0xp-Bt-Kih">
             <objects>
                 <viewController id="avC-lf-CXr" customClass="LoginMain" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="a5q-P5-g5v"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -111,7 +111,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDf-x3-qez">
                                         <rect key="frame" x="16" y="173" width="98" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.0" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="자동로그인">
@@ -198,7 +198,7 @@
                             <constraint firstItem="8yU-z3-VZY" firstAttribute="leading" secondItem="s2X-qK-xvF" secondAttribute="leading" id="okr-Mk-qK9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="로그인(테스트)" id="Q2i-vH-j8G"/>
+                    <navigationItem key="navigationItem" title="로그인" id="Q2i-vH-j8G"/>
                     <connections>
                         <outlet property="autoLoginImage" destination="BmV-3t-I7P" id="xL0-qd-CVO"/>
                         <outlet property="idTextField" destination="kD9-Rl-7Ze" id="KBb-1h-rS9"/>
@@ -278,88 +278,39 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYw-F9-rau">
-                                        <rect key="frame" x="115" y="143" width="4" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="8zB-CQ-iSG"/>
-                                            <constraint firstAttribute="width" constant="4" id="DEh-Gn-Eym"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBa-wS-Gmx">
-                                        <rect key="frame" x="239" y="143" width="4" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="4" id="5yl-QD-I28"/>
-                                            <constraint firstAttribute="height" constant="20" id="hbF-aH-rMT"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호일치" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNy-TN-Shn">
-                                        <rect key="frame" x="243" y="143" width="65" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="OQt-At-PQM"/>
-                                            <constraint firstAttribute="width" constant="65" id="WoV-e0-CRQ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="영문, 숫자, 특수문자 조합" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyU-yU-oLX">
-                                        <rect key="frame" x="119" y="143" width="120" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="HYo-JH-eei"/>
-                                            <constraint firstAttribute="height" constant="20" id="O9a-yH-eGO"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6~18자 이내" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-5k-vkL">
-                                        <rect key="frame" x="45" y="143" width="70" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="I1h-t8-57u"/>
-                                            <constraint firstAttribute="width" constant="70" id="Khd-J5-ojM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새로운 비밀번호를 입력해 주세요." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="Jco-gZ-w2U">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="auB-fZ-mJf"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.25592948720000003" green="0.25592948720000003" blue="0.25592948720000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6~18자 이내 | 영문, 숫자, 특수문자 조합 | 비밀번호일치" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSw-cX-icR">
+                                        <rect key="frame" x="40" y="143" width="270" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="270" id="pSr-U3-J3I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="kNy-TN-Shn" firstAttribute="leading" secondItem="MBa-wS-Gmx" secondAttribute="trailing" id="2Na-En-51t"/>
-                                    <constraint firstItem="yyU-yU-oLX" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="5lo-uA-uZF"/>
                                     <constraint firstAttribute="trailing" secondItem="WSd-0F-7mP" secondAttribute="trailing" constant="10" id="5pz-wM-YMZ"/>
                                     <constraint firstItem="WSd-0F-7mP" firstAttribute="leading" secondItem="AmM-Wf-XPn" secondAttribute="leading" constant="10" id="63S-la-DXf"/>
                                     <constraint firstAttribute="bottom" secondItem="9V0-K4-5xv" secondAttribute="bottom" id="B6K-yT-Ww1"/>
                                     <constraint firstAttribute="trailing" secondItem="Jco-gZ-w2U" secondAttribute="trailing" id="CjK-4c-w81"/>
                                     <constraint firstItem="Jco-gZ-w2U" firstAttribute="top" secondItem="AmM-Wf-XPn" secondAttribute="top" id="KzR-sK-eeO"/>
-                                    <constraint firstItem="kNy-TN-Shn" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="L9X-IT-4ve"/>
-                                    <constraint firstItem="D8B-5k-vkL" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="LRZ-KT-KsT"/>
-                                    <constraint firstItem="yyU-yU-oLX" firstAttribute="leading" secondItem="QYw-F9-rau" secondAttribute="trailing" id="Nkw-Mw-o2h"/>
-                                    <constraint firstItem="MBa-wS-Gmx" firstAttribute="leading" secondItem="yyU-yU-oLX" secondAttribute="trailing" id="QJa-mm-ecE"/>
-                                    <constraint firstAttribute="trailing" secondItem="kNy-TN-Shn" secondAttribute="trailing" constant="12" id="SjA-rE-hJN"/>
-                                    <constraint firstItem="QYw-F9-rau" firstAttribute="leading" secondItem="D8B-5k-vkL" secondAttribute="trailing" id="U4N-4T-8PV"/>
+                                    <constraint firstAttribute="trailing" secondItem="gSw-cX-icR" secondAttribute="trailing" constant="10" id="UuA-a2-x4J"/>
                                     <constraint firstItem="9V0-K4-5xv" firstAttribute="leading" secondItem="AmM-Wf-XPn" secondAttribute="leading" id="cYp-An-CmG"/>
                                     <constraint firstItem="Jco-gZ-w2U" firstAttribute="leading" secondItem="AmM-Wf-XPn" secondAttribute="leading" id="dDI-3j-ChJ"/>
-                                    <constraint firstItem="QYw-F9-rau" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="fHt-nR-B66"/>
                                     <constraint firstAttribute="trailing" secondItem="9V0-K4-5xv" secondAttribute="trailing" id="k36-4X-7uq"/>
                                     <constraint firstItem="WSd-0F-7mP" firstAttribute="top" secondItem="Jco-gZ-w2U" secondAttribute="bottom" constant="20" id="lDR-aT-n25"/>
-                                    <constraint firstItem="MBa-wS-Gmx" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="pFe-Ck-Yjl"/>
+                                    <constraint firstItem="gSw-cX-icR" firstAttribute="top" secondItem="WSd-0F-7mP" secondAttribute="bottom" constant="5" id="mD2-Xw-O3X"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -398,7 +349,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="lRI-6W-ttt"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.25592948720000003" green="0.25592948720000003" blue="0.25592948720000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
