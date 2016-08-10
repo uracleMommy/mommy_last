@@ -27,7 +27,7 @@
             </objects>
             <point key="canvasLocation" x="-171" y="478"/>
         </scene>
-        <!--회원가입-->
+        <!--회원가입(테스트)-->
         <scene sceneID="lWv-ON-0At">
             <objects>
                 <viewController id="kFE-e9-yMh" customClass="SignUpMain" sceneMemberID="viewController">
@@ -313,7 +313,7 @@
                             <constraint firstItem="i1n-xS-3gT" firstAttribute="top" secondItem="0w0-KU-V80" secondAttribute="bottom" id="wqk-XN-Ym5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="회원가입" id="BG7-GQ-Zb9"/>
+                    <navigationItem key="navigationItem" title="회원가입(테스트)" id="BG7-GQ-Zb9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbV-ps-j7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
