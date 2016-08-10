@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-34.133333333333333" y="531.08000000000004"/>
         </scene>
-        <!--로그인-->
+        <!--로그인(테스트)-->
         <scene sceneID="0xp-Bt-Kih">
             <objects>
                 <viewController id="avC-lf-CXr" customClass="LoginMain" sceneMemberID="viewController">
@@ -198,7 +198,7 @@
                             <constraint firstItem="8yU-z3-VZY" firstAttribute="leading" secondItem="s2X-qK-xvF" secondAttribute="leading" id="okr-Mk-qK9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="로그인" id="Q2i-vH-j8G"/>
+                    <navigationItem key="navigationItem" title="로그인(테스트)" id="Q2i-vH-j8G"/>
                     <connections>
                         <outlet property="autoLoginImage" destination="BmV-3t-I7P" id="xL0-qd-CVO"/>
                         <outlet property="idTextField" destination="kD9-Rl-7Ze" id="KBb-1h-rS9"/>
