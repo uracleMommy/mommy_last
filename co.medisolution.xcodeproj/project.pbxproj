@@ -12,6 +12,10 @@
 		2AC781DB1D599C0800B86BE1 /* MembershipLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC781DA1D599C0800B86BE1 /* MembershipLogin.storyboard */; };
 		2AC781DE1D59A3C100B86BE1 /* LoginMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC781DD1D59A3C100B86BE1 /* LoginMain.m */; };
 		2AC781E11D59ED1600B86BE1 /* LoginNewPasswordCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC781E01D59ED1600B86BE1 /* LoginNewPasswordCreate.m */; };
+		DC55395B1D5C054600741CC6 /* MommyController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55395A1D5C054600741CC6 /* MommyController.m */; };
+		DC55395D1D5C056E00741CC6 /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC55395C1D5C056E00741CC6 /* DashBoard.storyboard */; };
+		DC55395F1D5C0D7C00741CC6 /* NanumBarunGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC55395E1D5C0CCE00741CC6 /* NanumBarunGothic.otf */; };
+		DC5539611D5C133100741CC6 /* NanumBarunGothicBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC5539601D5C133100741CC6 /* NanumBarunGothicBold.otf */; };
 		DCA5AE261D598C6F0075B7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA5AE251D598C6F0075B7AD /* main.m */; };
 		DCA5AE291D598C6F0075B7AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA5AE281D598C6F0075B7AD /* AppDelegate.m */; };
 		DCA5AE2C1D598C6F0075B7AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA5AE2B1D598C6F0075B7AD /* ViewController.m */; };
@@ -30,6 +34,11 @@
 		2AC781DD1D59A3C100B86BE1 /* LoginMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginMain.m; sourceTree = "<group>"; };
 		2AC781DF1D59ED1600B86BE1 /* LoginNewPasswordCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginNewPasswordCreate.h; sourceTree = "<group>"; };
 		2AC781E01D59ED1600B86BE1 /* LoginNewPasswordCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginNewPasswordCreate.m; sourceTree = "<group>"; };
+		DC5539591D5C054600741CC6 /* MommyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MommyController.h; sourceTree = "<group>"; };
+		DC55395A1D5C054600741CC6 /* MommyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MommyController.m; sourceTree = "<group>"; };
+		DC55395C1D5C056E00741CC6 /* DashBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		DC55395E1D5C0CCE00741CC6 /* NanumBarunGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.otf; sourceTree = "<group>"; };
+		DC5539601D5C133100741CC6 /* NanumBarunGothicBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicBold.otf; sourceTree = "<group>"; };
 		DCA5AE211D598C6F0075B7AD /* co.medisolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = co.medisolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA5AE251D598C6F0075B7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCA5AE271D598C6F0075B7AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +68,7 @@
 			children = (
 				2AC781DA1D599C0800B86BE1 /* MembershipLogin.storyboard */,
 				2AB97A271D5AAFDA0063EB5E /* MembershipSignUp.storyboard */,
+				DC55395C1D5C056E00741CC6 /* DashBoard.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -76,9 +86,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		DC5539581D5C046E00741CC6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DC5539591D5C054600741CC6 /* MommyController.h */,
+				DC55395A1D5C054600741CC6 /* MommyController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		DCA5AE181D598C6F0075B7AD = {
 			isa = PBXGroup;
 			children = (
+				DC5539581D5C046E00741CC6 /* Class */,
 				2AC781D81D5998F400B86BE1 /* Controller */,
 				2AC781D71D5998D700B86BE1 /* StoryBoard */,
 				DCA5AE231D598C6F0075B7AD /* co.medisolution */,
@@ -97,6 +117,8 @@
 		DCA5AE231D598C6F0075B7AD /* co.medisolution */ = {
 			isa = PBXGroup;
 			children = (
+				DC5539601D5C133100741CC6 /* NanumBarunGothicBold.otf */,
+				DC55395E1D5C0CCE00741CC6 /* NanumBarunGothic.otf */,
 				DCA5AE271D598C6F0075B7AD /* AppDelegate.h */,
 				DCA5AE281D598C6F0075B7AD /* AppDelegate.m */,
 				DCA5AE2A1D598C6F0075B7AD /* ViewController.h */,
@@ -177,11 +199,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC55395F1D5C0D7C00741CC6 /* NanumBarunGothic.otf in Resources */,
 				2AB97A281D5AAFDA0063EB5E /* MembershipSignUp.storyboard in Resources */,
 				2AC781DB1D599C0800B86BE1 /* MembershipLogin.storyboard in Resources */,
 				DCA5AE371D598C6F0075B7AD /* LaunchScreen.storyboard in Resources */,
 				DCA5AE341D598C6F0075B7AD /* Assets.xcassets in Resources */,
+				DC5539611D5C133100741CC6 /* NanumBarunGothicBold.otf in Resources */,
 				DCA5AE2F1D598C6F0075B7AD /* Main.storyboard in Resources */,
+				DC55395D1D5C056E00741CC6 /* DashBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +224,7 @@
 				2AC781DE1D59A3C100B86BE1 /* LoginMain.m in Sources */,
 				DCA5AE261D598C6F0075B7AD /* main.m in Sources */,
 				2AC781E11D59ED1600B86BE1 /* LoginNewPasswordCreate.m in Sources */,
+				DC55395B1D5C054600741CC6 /* MommyController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
